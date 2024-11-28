@@ -8,6 +8,8 @@
   /* Emerald Green */
   --neutral-color: #BDC3C7;
   /* Light Gray */
+  --heading-color: #FFFFFF;
+  /* White */
 }
 
 /* Typography */
@@ -21,7 +23,7 @@ h1,
 h2,
 h3 {
   font-family: 'Roboto Slab', serif;
-  color: var(--primary-color);
+  color: var(--heading-color);
 }
 
 a {
