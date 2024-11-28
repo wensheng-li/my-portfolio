@@ -1,0 +1,8 @@
+document.addEventListener("DOMContentLoaded", function () {
+  // Add any JavaScript code here, such as form validation or animations
+  const form = document.querySelector("form");
+  form.addEventListener("submit", function (event) {
+    event.preventDefault();
+    alert("Form submitted!");
+  });
+});
