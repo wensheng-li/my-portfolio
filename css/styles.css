@@ -1,0 +1,46 @@
+/* Apply the color scheme */
+:root {
+  --primary-color: #1F3A93;
+  /* Navy Blue */
+  --accent-color-1: #3498DB;
+  /* Sky Blue */
+  --accent-color-2: #2ECC71;
+  /* Emerald Green */
+  --neutral-color: #BDC3C7;
+  /* Light Gray */
+}
+
+/* Typography */
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: var(--neutral-color);
+  background-color: #FFFFFF;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Roboto Slab', serif;
+  color: var(--primary-color);
+}
+
+a {
+  color: var(--accent-color-1);
+}
+
+a:hover {
+  color: var(--accent-color-2);
+}
+
+/* Button Example */
+button {
+  background-color: var(--primary-color);
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--accent-color-1);
+}
