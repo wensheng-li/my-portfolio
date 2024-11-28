@@ -46,7 +46,7 @@ button:hover {
 }
 
 header {
-  background-color: #333;
+  background-color: var(--primary-color);
   color: white;
   padding: 1rem;
   text-align: center;
@@ -63,12 +63,18 @@ nav li {
 }
 
 nav a {
-  color: white;
+  color: var(--neutral-color);
   text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--accent-color-1);
 }
 
 section {
   padding: 2rem;
+  background-color: #f9f9f9;
+  color: var(--neutral-color);
 }
 
 .project {
@@ -76,7 +82,7 @@ section {
 }
 
 footer {
-  background-color: #333;
+  background-color: var(--primary-color);
   color: white;
   text-align: center;
   padding: 1rem;
