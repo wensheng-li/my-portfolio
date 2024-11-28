@@ -15,15 +15,17 @@
 /* Typography */
 body {
   font-family: 'Open Sans', sans-serif;
-  color: var(--neutral-color);
-  background-color: #FFFFFF;
+  color: #333333;
+  /* Darker text color for better readability */
+  background-color: #F4F4F4;
+  /* Very light gray */
 }
 
 h1,
 h2,
 h3 {
   font-family: 'Roboto Slab', serif;
-  color: var(--heading-color);
+  color: var(--primary-color);
 }
 
 a {
@@ -65,7 +67,7 @@ nav li {
 }
 
 nav a {
-  color: var(--neutral-color);
+  color: white;
   text-decoration: none;
 }
 
@@ -75,11 +77,20 @@ nav a:hover {
 
 section {
   padding: 2rem;
-  background-color: #f9f9f9;
-  color: var(--neutral-color);
+  background-color: #FFFFFF;
+  /* White background */
+  color: #333333;
+  /* Dark gray text */
+  margin: 2rem 0;
+  /* Space between sections */
 }
 
 .project {
+  border: 1px solid var(--neutral-color);
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  /* White background for cards */
   margin-bottom: 2rem;
 }
 
