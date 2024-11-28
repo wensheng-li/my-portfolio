@@ -21,7 +21,11 @@ body {
   /* Very light gray */
 }
 
-h1,
+h1 {
+  font-family: 'Roboto Slab', serif;
+  color: var(--heading-color);
+}
+
 h2,
 h3 {
   font-family: 'Roboto Slab', serif;
