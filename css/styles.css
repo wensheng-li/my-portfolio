@@ -89,6 +89,11 @@ section {
   /* Space between sections */
 }
 
+#contact {
+  margin-bottom: 50px;
+  /* Add space below the contact form */
+}
+
 .project {
   border: 1px solid var(--neutral-color);
   padding: 1rem;
